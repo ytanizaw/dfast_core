@@ -64,7 +64,7 @@ class GeneMarkS2(StructuralAnnotationTool):
         def _getLengthDict(fileName):
             R = list(SeqIO.parse(open(fileName), "fasta"))
             return {r.id: len(r) for r in R}
-
+ 
         def _get_feature(left, right, strand, partial_flag, seq_length, i):
             left_flag, right_flag = partial_flag[0], partial_flag[1]
             left, right, codon_start = int(left), int(right), 1
