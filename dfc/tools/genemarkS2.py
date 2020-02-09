@@ -29,6 +29,7 @@ class GeneMarkS2(StructuralAnnotationTool):
         self.genome_type = options.get("genome_type", "bacteria")
         self.cmd_options = options.get("cmd_options", "")
 
+          
     def getCommand(self):
 
         # /home/apfennig3/Team1-GenePrediction/bin/gms2.pl --seq $genome --genome-type bacteria --output $tmp_dir/output.gtf --format gff
