@@ -6,6 +6,8 @@ from Bio import SeqIO
 from ..models.bio_feature import ExtendedFeature
 import os.path
 
+# test 
+
 class GeneMarkS2(StructuralAnnotationTool):
     """
     GeneMarkS2
